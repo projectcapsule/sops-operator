@@ -55,7 +55,7 @@
         "\"CRDOC_VERSION\"\\s*:\\s*\"(?<currentValue>[^\"]+)\""
       ],
       "depNameTemplate": "fybrik.io/crdoc",
-      "datasourceTemplate": "gomod",
+      "datasourceTemplate": "go",
       "versioningTemplate": "go"
     },
     {
