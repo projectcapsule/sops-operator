@@ -23,7 +23,7 @@ jobs:
   linter-artifacthub:
     runs-on: ubuntu-latest
     container:
-      image: artifacthub/ah@sha256:e5d2a2cdef85aac4928e8176ffaad24746c5fe961d64ff6856f7222957095356
+      image: artifacthub/ah@sha256:97a90dba76f9cf550f0f93187222505ba104e3af72ab4a7bbe63b370aebaa6e7
       options: --user root
     steps:
       - name: Checkout
